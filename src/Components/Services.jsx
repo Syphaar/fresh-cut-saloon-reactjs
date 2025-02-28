@@ -30,7 +30,7 @@ const Services = ({ servicesRef }) => {
                         ))}
                     </div>
                     <div className="md:w-[250%] xl:w-[90%]" data-aos="fade-right">
-                        <img src="src/assets/images/services.JPG" alt="" className="rounded-xl" />
+                        <img src="https://res.cloudinary.com/dlcoacdkb/image/upload/v1740650063/services_riwqw2.jpg" alt="" className="rounded-xl" />
                     </div>
                 </div>
             </div>

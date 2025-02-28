@@ -8,19 +8,19 @@ const Heading = [
 const Pictures = [
     {
         id:1,
-        img: <img src="src/assets/images/blog-one.JPG" alt="" className="rounded-xl" />,
+        img: <img src="https://res.cloudinary.com/dlcoacdkb/image/upload/v1740650062/blog-one_xadgdm.jpg" alt="" className="rounded-xl" />,
     },
     {
         id:2,
-        img: <img src="src/assets/images/blog-two.JPG" alt="" className="rounded-xl" />,
+        img: <img src="https://res.cloudinary.com/dlcoacdkb/image/upload/v1740650063/blog-two_yxrlox.jpg" alt="" className="rounded-xl" />,
     },
     {
         id:3,
-        img: <img src="src/assets/images/blog-three.JPG" alt="" className="rounded-xl" />,
+        img: <img src="https://res.cloudinary.com/dlcoacdkb/image/upload/v1740650062/blog-three_yisqvg.jpg" alt="" className="rounded-xl" />,
     },
     {
         id:4,
-        img: <img src="src/assets/images/blog-four.JPG" alt="" className="rounded-xl" />,
+        img: <img src="https://res.cloudinary.com/dlcoacdkb/image/upload/v1740650061/blog-four_kjtexu.jpg" alt="" className="rounded-xl" />,
     },
 ]
 
