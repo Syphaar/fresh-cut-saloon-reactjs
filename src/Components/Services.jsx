@@ -7,10 +7,9 @@ const Heading = [
     }
 ]
 
-
 const Services = ({ servicesRef }) => {
     return (
-        <section ref={servicesRef} id="services" className="bg-brown">
+        <section ref={servicesRef} id="services" className="bg-brown overflow-hidden">
             <div className="pt-14 px-7 md:px-10 lg:pt-20 lg:px-24 xl:px-20">
                 <div className="md:flex md:flex-row-reverse md:gap-5">
                     <div data-aos="fade-left">
