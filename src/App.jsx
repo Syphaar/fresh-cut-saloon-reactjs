@@ -25,7 +25,7 @@ function App() {
       offset: 100,
       duration: 800,
       easing: "ease-in-size",
-      delay: 900,
+      delay: 500,
     });
     Aos.refresh();
   }, []);

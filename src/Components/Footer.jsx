@@ -1,5 +1,6 @@
 import { FaTwitter, FaFacebookF, FaInstagram } from "react-icons/fa";
 import { FiPhoneCall } from "react-icons/fi";
+import PropTypes from "prop-types"; // Import prop-types
 
 const Heading = [
     {
@@ -22,7 +23,6 @@ const Footer = ({ contactRef }) => {
                 <div className="">
                     <div className="text-white sm:flex sm:justify-center sm:text-center">
                         <div className="" data-aos="zoom-in">
-                            
                             <p className="pb-4">
                             Looking for your next fresh cut?
                             Visit us at no.4 bull street for a top-tier grooming experience.
@@ -71,12 +71,18 @@ const Footer = ({ contactRef }) => {
                                 </a>
                             </div> */}
                         </div>
-                        
                     </div>
                 </div>
             </div>
         </section>
     )
-}
+};
+
+Footer.propTypes = {
+    contactRef: PropTypes.oneOfType([
+        PropTypes.func,
+        PropTypes.shape({ current: PropTypes.any }),
+    ]),
+};  
 
 export default Footer;

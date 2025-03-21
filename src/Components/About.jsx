@@ -3,7 +3,7 @@ import { GiBeard } from "react-icons/gi";
 import { TbBlade } from "react-icons/tb";
 import { GiComb } from "react-icons/gi";
 import { MdArrowForwardIos } from "react-icons/md";
-
+import PropTypes from "prop-types"; // Import prop-types
 
 const Heading = [
     {
@@ -77,6 +77,14 @@ const About = ({ aboutRef }) => {
             </div>
         </section>
     )
-}
+};
+
+// Define prop types
+About.propTypes = {
+    aboutRef: PropTypes.oneOfType([
+        PropTypes.func,
+        PropTypes.shape({ current: PropTypes.any }),
+    ]),
+};
 
 export default About;

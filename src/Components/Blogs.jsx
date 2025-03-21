@@ -1,3 +1,5 @@
+import PropTypes from "prop-types"; // Import prop-types
+
 const Heading = [
     {
         id:1, 
@@ -50,6 +52,14 @@ const Blogs = ({ blogsRef }) => {
             </div>
         </section>
     )
-}
+};
+
+// Define prop types
+Blogs.propTypes = {
+    blogsRef: PropTypes.oneOfType([
+        PropTypes.func,
+        PropTypes.shape({ current: PropTypes.any }),
+    ]),
+};
 
 export default Blogs;
